@@ -1,9 +1,8 @@
 import express from 'express';
 import { indexRouter } from './routers';
-
 export default class ExpressServer {
     private server: express.Application;
-    private port: number = 3000;
+    private port: number = 3005;
 
     constructor(){
         this.server = express();
